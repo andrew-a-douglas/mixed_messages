@@ -12,4 +12,4 @@ const stoics = ['Marcus Aurelius','Cato','Epictetus','Victor Frankl','Seneca'];
     }
 
 //Output a random message medley.
-  console.log(`${logRandMsg(prefix)} always remember: ${logRandMsg(quotes)}... which may or may not have been said by ${logRandMsg(stoics)}.`);
+  console.log(`${logRandMsg(prefix)}, always remember: "${logRandMsg(quotes)}"... which may or may not have been said by ${logRandMsg(stoics)}.`);
