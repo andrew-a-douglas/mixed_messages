@@ -21,4 +21,11 @@ const quotes = [
         }
     ]
 
-console.log(quotes[4].msg +  ' -- ' + quotes[4].author);
+
+    function logRandMsg () {
+        let arrLength = quotes.length;
+        let selector = Math.floor(Math.random() * arrLength)
+        console.log(quotes[selector].msg + ' -- ' + quotes[selector].author);
+    }
+
+    logRandMsg();
